@@ -346,6 +346,15 @@ Future Canton and Daml upgrades will be handled through versioned toolkit releas
 This proposal therefore delivers not only a working toolkit, but also a maintainable open-source versioning and upgrade model. It does not assume perpetual same-grant support for every future upstream release, but it ensures the project is structured so upgrades can be performed transparently and released as new compatible versions by anyone in the community.
 
 
+## Potential Ecosystem Beneficiaries
+
+This proposal is intended as public-good privacy-correctness infrastructure for the wider Canton ecosystem, and I have identified a few ecosystem teams that are well aligned with this kind of capability and have expressed interest in stronger visibility and privacy regression tooling, including `Gateway.fm`, `Lumens.fi`, and `BitDynamics AB`.
+
+These features address a recurring Canton-specific pain point: workflows can remain functionally correct while still drifting from their intended privacy boundaries through observer leaks, stakeholder creep, or unintended visibility changes across transitions.
+
+More broadly, this project is useful for all teams building multi-party Canton applications that need a practical way to assert, review, and continuously enforce privacy boundaries in CI before those regressions reach production workflows.
+
+
 
 ## Rationale
 
